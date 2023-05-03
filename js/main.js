@@ -218,7 +218,6 @@ for (let i = 0; i < header.length; i++) {
 
 for (let i = 0; i < dropdown.length; i++) {
   document.addEventListener('click', (e) => {
-    console.log(dropdown[i]);
     if (!dropdown[i].contains(e.target)) {
       dropdown_content[i].classList.remove('active');
       arrow[i].classList.remove('active');
